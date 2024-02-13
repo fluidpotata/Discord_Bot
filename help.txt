@@ -1,0 +1,17 @@
+Bot created by <@"Your user id">
+
+Commands (or you can directly check from application commands using '/'):
+
+!help = To get help
+!facinfo<space>initial/Name = Get Infos about a faculty
+!materials<space>course code = To get materials of a course if available [Very few available ;_;]
+!finals<space>coursecode-section = To get mid schedule
+!joke = get a random joke
+
+Example:
+
+```!help```
+```!facinfo DPU```
+```!facinfo Tasnim```
+```!finals cse331-1 cse370-1 mat216-1 che101-11```
+```!joke```
