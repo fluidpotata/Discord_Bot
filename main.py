@@ -33,7 +33,7 @@ async def on_ready():
 async def on_message(message):
     if authenthicate.ifServer1(message):
         category = message.channel.category
-        if int(category.id) not in (1153372075646521384, 1156090385408475257, 1180465508370350080) and category.position != 3:
+        if int(category.id) not in ("IGNORED CATEGORY IDS") and category.position != 3:
             await category.edit(position=3)
     await bot.process_commands(message)
 
